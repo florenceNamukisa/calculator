@@ -1,0 +1,107 @@
+/* .container {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+   
+       background-color: #FFE6E6; /* Soft pink */
+       /* border-color: #FFC0CB; Pastel pink */
+       /* box-shadow: 0px 0px 10px rgba(255, 192, 203, 0.1); */
+     /* } */
+     
+     /* .Calculator {
+       grid-gap: 20px;
+     }
+     
+     .row { */
+       /* flex-wrap:nowrap;
+       justify-content: space-between;
+       margin-bottom: 10px;
+     }
+     
+     input[type="button"] {
+       font-size: 18px;
+       padding: 30px;
+   
+       background-color: #FFC5C5; /* Light coral */
+       /* color: #666666; /* Dark gray */
+       /* border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       box-sizing: border-box; */
+     /* } */
+     /* .operator-button{
+        font-size: 30px; /* Even larger font size */
+        /* padding: 10px; */
+        /* width: 25%;
+        background: color #f3c !important;; */
+     /* } */
+     /* .operators{ */ 
+        /* font-size: 30px; Even larger font size */
+        /* padding: 10px;
+        width: 30%; */
+        /* background: color #f3c !important;; */
+     /* } */
+      
+     /* input[type="button"]:hover { */
+       /* background-color: #FF99CC; Pastel coral */
+     /* }
+      */
+     /* #display { */
+       /* margin-bottom: 20px; */
+      
+     
+       body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .calculator {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .display {
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: right;
+        padding: 10px;
+        background-color: #222;
+        color: #fff;
+        border-radius: 5px;
+    }
+    
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    
+    .btn {
+        padding: 20px;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 5px;
+        background-color: #eee;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: #ddd;
+    }
+    
+    .clear {
+        background-color: #ff0000;
+    }
+    
+    .answer {
+        background-color: #008000;
+    }
